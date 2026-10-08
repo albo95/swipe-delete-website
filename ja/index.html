@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>スワイプで写真整理｜iPhoneの容量を空ける SwipeDelete</title>
+<meta name="description" content="左にスワイプで削除候補へ、右にスワイプで残す。重複やスクショから片づけて、iPhoneの空き容量をすばやく取り戻せます。処理はすべて端末内。">
+<link rel="canonical" href="index.html">
+<link rel="alternate" hreflang="it" href="../index.html">
+<link rel="alternate" hreflang="en-US" href="../en-US/index.html">
+<link rel="alternate" hreflang="es-MX" href="../es-MX/index.html">
+<link rel="alternate" hreflang="fr-FR" href="../fr-FR/index.html">
+<link rel="alternate" hreflang="de-DE" href="../de-DE/index.html">
+<link rel="alternate" hreflang="pt-BR" href="../pt-BR/index.html">
+<link rel="alternate" hreflang="es-ES" href="../es-ES/index.html">
+<link rel="alternate" hreflang="ru" href="../ru/index.html">
+<link rel="alternate" hreflang="ja" href="index.html">
+<link rel="alternate" hreflang="tr" href="../tr/index.html">
+<link rel="alternate" hreflang="ar-SA" href="../ar-SA/index.html">
+<link rel="alternate" hreflang="x-default" href="../index.html">
+<meta name="apple-itunes-app" content="app-id=6785052186">
+<meta name="theme-color" content="#262558">
+<link rel="icon" type="image/png" href="../assets/icon.png">
+<link rel="apple-touch-icon" href="../assets/icon.png">
+<link rel="stylesheet" href="../assets/style.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SwipeDelete">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="SwipeDelete：スワイプで写真整理">
+<meta property="og:description" content="左で削除候補、右で残す。たまった写真・動画をサクサク整理して、空き容量を取り戻そう。">
+<meta property="og:url" content="index.html">
+<meta property="og:image" content="../assets/screenshots/ja/1.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SwipeDelete：スワイプで写真整理">
+<meta name="twitter:description" content="左で削除候補、右で残す。たまった写真・動画をサクサク整理して、空き容量を取り戻そう。">
+<meta name="twitter:image" content="../assets/screenshots/ja/1.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"SwipeDelete","alternateName":"SwipeDelete: スワイプで写真整理","operatingSystem":"iOS","applicationCategory":"UtilitiesApplication","inLanguage":"ja","description":"スワイプで写真・動画を整理してiPhoneの空き容量を増やすアプリ。端末内のスマート提案、アプリ内ゴミ箱、種類・日付・サイズでの絞り込み。","url":"https://apps.apple.com/app/id6785052186","installUrl":"https://apps.apple.com/app/id6785052186","image":"../assets/icon.png","screenshot":"../assets/screenshots/ja/1.png","author":{"@type":"Organization","name":"AlbosApps","email":"albosapps@gmail.com"},"offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"iPhoneでたくさんの写真をすばやく削除するには？","acceptedAnswer":{"@type":"Answer","text":"SwipeDeleteなら、写真や動画をカードのように左右にスワイプするだけ。左で削除候補へ、右で残します。直前の操作はすぐに取り消せます。"}},
+{"@type":"Question","name":"間違えて消した写真は戻せますか？","acceptedAnswer":{"@type":"Answer","text":"はい。左にスワイプした写真はいったんアプリ内のゴミ箱へ入り、1枚ずつ戻せます。最終的な削除の前にはiOSの確認も表示されます。"}},
+{"@type":"Question","name":"重複写真やスクショを見つけられますか？","acceptedAnswer":{"@type":"Answer","text":"スマート提案が、スクリーンショット、似た写真、選ばれなかったバースト、ブレた写真を先頭に表示します。"}},
+{"@type":"Question","name":"少ない操作で空き容量を増やすには？","acceptedAnswer":{"@type":"Answer","text":"サイズ順に並べて、大きいファイルから整理しましょう。"}},
+{"@type":"Question","name":"写真がクラウドにアップロードされますか？","acceptedAnswer":{"@type":"Answer","text":"いいえ。すべての処理はデバイス内だけで完結します。"}},
+{"@type":"Question","name":"月額課金ですか？","acceptedAnswer":{"@type":"Answer","text":"いいえ。300MBまでは無料で整理でき、一度の購入で無制限に利用できます。月額課金はありません。"}}
+]}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">本文へスキップ</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="../assets/icon.png" alt="" width="34" height="34">SwipeDelete</a>
+    <nav class="site-nav" aria-label="メイン">
+      <a class="opt" href="#how">使い方</a>
+      <a href="#guides">ガイド</a>
+      <a class="opt" href="#faq">FAQ</a>
+      <a href="#download">ダウンロード</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div>
+        <img class="hero-icon" src="../assets/icon.png" alt="SwipeDeleteのアプリアイコン" width="84" height="84">
+        <p class="eyebrow">SwipeDelete · 写真整理</p>
+        <h1 id="hero-title">スワイプで写真整理。<span class="hl">iPhoneの空き容量</span>をすばやく取り戻す</h1>
+        <p class="lead">カメラロールの整理が、カードをめくるように楽しくなる。左にスワイプで削除候補へ、右にスワイプで残す。たったそれだけで、たまった写真や動画をサクサク片づけられます。</p>
+        <span class="store-btn soon"><svg aria-hidden="true" viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span><small>近日公開</small><span>App Store</span></span></span>
+        <p class="hero-note">処理はすべて端末内 · 安心のゴミ箱 · 買い切り、月額課金なし</p>
+      </div>
+      <div class="hero-shot">
+        <img src="../assets/screenshots/ja/1.png" alt="iPhoneのSwipeDelete：写真を左にスワイプして削除候補へ。上部に解放した容量とゴミ箱の件数" width="660" height="1434" fetchpriority="high">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="download" aria-labelledby="dl-title">
+    <div class="wrap">
+      <div class="cta-card">
+        <div>
+          <h2 id="dl-title">ゲーム感覚で写真整理を始めよう</h2>
+          <p>どこから手をつければいいかわからなくても大丈夫。明らかな不要写真から始められ、最終判断はいつもあなたです。</p>
+          <span class="store-btn soon"><svg aria-hidden="true" viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span><small>近日公開</small><span>App Store</span></span></span>
+        </div>
+        <ul class="checks">
+          <li><strong>スマート提案</strong>スクショ、似た写真、バースト、ブレた写真を先頭に表示。</li>
+          <li><strong>大きいファイルから</strong>サイズ順で、少ないスワイプで効率よく空き容量を増やせます。</li>
+          <li><strong>二重の安心</strong>アプリ内ゴミ箱と、削除前のiOSの確認。</li>
+          <li><strong>プライバシーを大切に</strong>写真がクラウドにアップロードされることはありません。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="screens" aria-labelledby="shots-title">
+    <div class="wrap section-head">
+      <h2 id="shots-title">1枚1秒で判断、リズムよく整理</h2>
+      <p>スワイプと触覚フィードバックで気持ちよく。<span class="scroll-hint">横にスクロールしてすべての画面を見る →</span></p>
+    </div>
+    <ul class="gallery" aria-label="SwipeDeleteのスクリーンショット">
+      <li><figure><img src="../assets/screenshots/ja/1.png" alt="カードのデッキ：写真を左にスワイプして削除候補へ。削除・取り消し・残すボタン" width="660" height="1434" loading="lazy"><figcaption>左で削除、右で残す</figcaption></figure></li>
+      <li><figure><img src="../assets/screenshots/ja/2.png" alt="サイズ順：大きな動画がデッキの先頭に表示" width="660" height="1434" loading="lazy"><figcaption>大きい動画から整理</figcaption></figure></li>
+      <li><figure><img src="../assets/screenshots/ja/5.png" alt="アプリ内ゴミ箱の一覧：すべて戻すボタンと解放した容量の合計" width="660" height="1434" loading="lazy"><figcaption>いつでも元に戻せる</figcaption></figure></li>
+      <li><figure><img src="../assets/screenshots/ja/6.png" alt="月ごとの絞り込みで、1か月ずつカメラロールを整理" width="660" height="1434" loading="lazy"><figcaption>1か月ずつ整理</figcaption></figure></li>
+      <li><figure><img src="../assets/screenshots/ja/4.png" alt="鍵付きの盾：処理はすべてiPhone内で完結" width="660" height="1434" loading="lazy"><figcaption>すべて端末内で処理</figcaption></figure></li>
+      <li><figure><img src="../assets/screenshots/ja/7.png" alt="ゴミ箱とデッキ：数分のスワイプで空き容量を確保" width="660" height="1434" loading="lazy"><figcaption>数分のスワイプで容量確保</figcaption></figure></li>
+      <li><figure><img src="../assets/screenshots/ja/3.png" alt="無制限アンロック画面：買い切りで月額課金なし" width="660" height="1434" loading="lazy"><figcaption>買い切り</figcaption></figure></li>
+    </ul>
+  </section>
+
+  <section class="section" id="how" aria-labelledby="how-title">
+    <div class="wrap">
+      <div class="section-head"><h2 id="how-title">使い方</h2><p>4ステップですぐに始められます。</p></div>
+      <ol class="steps">
+        <li><h3>写真へのアクセスを許可</h3><p>SwipeDeleteを開き、写真ライブラリへのアクセスを許可します。分析は端末内で行われます。</p></li>
+        <li><h3>始める場所を選ぶ</h3><p>スマート提案、写真・動画・スクリーンショット、年や月で絞り込み、またはサイズ順。</p></li>
+        <li><h3>スワイプで判断</h3><p>左で削除候補、右で残す。間違えたら直前の操作を取り消し。</p></li>
+        <li><h3>確認して削除</h3><p>ゴミ箱を一覧で確認し、必要なものを戻してから削除を確定します。</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section alt" id="guides" aria-labelledby="guides-title">
+    <div class="wrap">
+      <div class="section-head"><h2 id="guides-title">容量を空けるためのガイド</h2><p>実用ガイド（現在は英語のみ）。</p></div>
+      <div class="cards">
+        <a class="card" href="../en-US/guides/free-up-space-iphone.html" hreflang="en"><h3>iPhoneの容量を空ける方法</h3><p>英語のガイド</p><span class="more">読む（EN）→</span></a>
+        <a class="card" href="../en-US/guides/delete-duplicate-photos-iphone.html" hreflang="en"><h3>重複写真を削除する</h3><p>英語のガイド</p><span class="more">読む（EN）→</span></a>
+        <a class="card" href="../en-US/guides/delete-screenshots-iphone.html" hreflang="en"><h3>スクショを削除する</h3><p>英語のガイド</p><span class="more">読む（EN）→</span></a>
+        <a class="card" href="../en-US/guides/delete-blurry-photos-iphone.html" hreflang="en"><h3>ブレ写真を削除する</h3><p>英語のガイド</p><span class="more">読む（EN）→</span></a>
+        <a class="card" href="../en-US/guides/find-large-videos-iphone.html" hreflang="en"><h3>大きい動画を見つける</h3><p>英語のガイド</p><span class="more">読む（EN）→</span></a>
+        <a class="card" href="../en-US/guides/clean-camera-roll-iphone.html" hreflang="en"><h3>カメラロールを整理する</h3><p>英語のガイド</p><span class="more">読む（EN）→</span></a>
+        <a class="card" href="../en-US/guides/bulk-delete-photos-iphone.html" hreflang="en"><h3>写真をまとめて削除する</h3><p>英語のガイド</p><span class="more">読む（EN）→</span></a>
+        <a class="card" href="../en-US/guides/delete-burst-photos-iphone.html" hreflang="en"><h3>バースト写真を削除する</h3><p>英語のガイド</p><span class="more">読む（EN）→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="section-head"><h2 id="faq-title">よくある質問</h2></div>
+      <div class="faq">
+        <details><summary>iPhoneでたくさんの写真をすばやく削除するには？</summary><div><p>SwipeDeleteなら、写真や動画をカードのように左右にスワイプするだけ。左で削除候補へ、右で残します。直前の操作はすぐに取り消せます。<a href="../en-US/guides/bulk-delete-photos-iphone.html" hreflang="en">詳しく見る（EN）</a></p></div></details>
+        <details><summary>間違えて消した写真は戻せますか？</summary><div><p>はい。左にスワイプした写真はいったんアプリ内のゴミ箱へ入り、1枚ずつ戻すことも、まとめて削除することもできます。最終的な削除の前にはiOSの確認も表示されます。<a href="../en-US/guides/bulk-delete-photos-iphone.html" hreflang="en">詳しく見る（EN）</a></p></div></details>
+        <details><summary>重複写真やスクショを見つけられますか？</summary><div><p>スマート提案が、スクリーンショット、似た写真、選ばれなかったバースト、ブレた写真を先頭に表示します。<a href="../en-US/guides/delete-duplicate-photos-iphone.html" hreflang="en">詳しく見る（EN）</a></p></div></details>
+        <details><summary>少ない操作で空き容量を増やすには？</summary><div><p>サイズ順に並べて、大きいファイルから整理しましょう。少ないスワイプで効率よく空き容量を増やせます。<a href="../en-US/guides/find-large-videos-iphone.html" hreflang="en">詳しく見る（EN）</a></p></div></details>
+        <details><summary>写真がクラウドにアップロードされますか？</summary><div><p>いいえ。すべての処理はお使いのデバイス内だけで完結します。<a href="../en-US/privacy.html" hreflang="en">プライバシーポリシー（EN）</a></p></div></details>
+        <details><summary>月額課金ですか？</summary><div><p>いいえ。300MBまでは無料で整理を体験でき、気に入ったら一度の購入で無制限に利用できます。<a href="../en-US/terms.html" hreflang="en">利用規約（EN）</a></p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section final" aria-labelledby="final-title">
+    <div class="wrap">
+      <img src="../assets/icon.png" alt="" width="72" height="72">
+      <h2 id="final-title">新しい思い出のための空きスペースを</h2>
+      <p>SwipeDeleteはまもなくApp Storeで公開予定です。</p>
+      <span class="store-btn soon"><svg aria-hidden="true" viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span><small>近日公開</small><span>App Store</span></span></span>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h2>SwipeDelete</h2>
+        <p>スワイプで写真整理。iPhoneの容量を空ける、端末内で完結するアプリ。</p>
+        <ul><li><a href="../en-US/privacy.html" hreflang="en">プライバシー（EN）</a></li><li><a href="../en-US/terms.html" hreflang="en">利用規約（EN）</a></li><li><a href="../en-US/support.html" hreflang="en">サポート（EN）</a></li></ul>
+      </div>
+      <nav aria-label="ガイド">
+        <h2>ガイド</h2>
+        <ul>
+          <li><a href="../en-US/guides/free-up-space-iphone.html" hreflang="en">容量を空ける（EN）</a></li>
+          <li><a href="../en-US/guides/delete-screenshots-iphone.html" hreflang="en">スクショ削除（EN）</a></li>
+          <li><a href="#guides">すべてのガイド</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="言語">
+        <h2>言語</h2>
+        <ul class="langs">
+          <li><a href="../index.html" hreflang="it" lang="it">Italiano</a></li>
+          <li><a href="../en-US/index.html" hreflang="en-US" lang="en">English</a></li>
+          <li><a href="../es-MX/index.html" hreflang="es-MX" lang="es">Español (MX)</a></li>
+          <li><a href="../es-ES/index.html" hreflang="es-ES" lang="es">Español (ES)</a></li>
+          <li><a href="../fr-FR/index.html" hreflang="fr-FR" lang="fr">Français</a></li>
+          <li><a href="../de-DE/index.html" hreflang="de-DE" lang="de">Deutsch</a></li>
+          <li><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt">Português (BR)</a></li>
+          <li><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a></li>
+          <li><a href="index.html" hreflang="ja" lang="ja" aria-current="page">日本語</a></li>
+          <li><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></li>
+          <li><a href="../ar-SA/index.html" hreflang="ar-SA" lang="ar">العربية</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="copy">© 2026 AlbosApps. All rights reserved. Apple、iPhone、App StoreはApple Inc.の商標です。</p>
+  </div>
+</footer>
+</body>
+</html>
